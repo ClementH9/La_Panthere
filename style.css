@@ -676,6 +676,10 @@ a {
     margin: auto auto auto auto;
 }
 
+p {
+    font-size: 18px;
+}
+
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -703,6 +707,10 @@ a {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+}
+
+.bold_text{
+    font-weight: bold;
 }
 
 h3 {
@@ -784,6 +792,10 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.survol_page:hover{ 
+    color: #F3976C
+}
+
 .ltc-white {
     color: #FFFFFF!important;
 }
@@ -823,7 +835,7 @@ h4 {
 }
 
 .paragraphe .quote .ceo{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .quote{
@@ -1034,6 +1046,14 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+
+    .col-sm-6 img {
+        width: 50%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        vertical-align: middle; 
     }
 }
 
