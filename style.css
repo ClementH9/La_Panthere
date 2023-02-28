@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 18px;
 }
 
 .tight-width-whitespace {
@@ -709,8 +709,12 @@ h2 {
     line-height: 1.4em;
 }
 
+.bold_text{
+    font-weight: bold;
+}
+
 h3 {
-    font-size: 15px;
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -753,7 +757,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(57, 53, 40, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -775,7 +779,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #Ffffff!important;
 }
 
 .btn-atomic-tangerine {
@@ -786,6 +790,10 @@ h4 {
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
     color: #FFFFFF!important;
+}
+
+.survol_page:hover{ 
+    color: #F3976C
 }
 
 .ltc-white {
@@ -819,10 +827,23 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/agence-la-panthere.jpg");
+    opacity: 1;
 }
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
+}
+
+.paragraphe .quote .ceo{
+    font-size: 20px;
+}
+
+.quote{
+    font-style: italic;
+}
+
+.ceo{
+    font-weight: bold;
 }
 
 @media (max-width: 1024px) {
@@ -1025,6 +1046,14 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+
+    .col-sm-6 img {
+        width: 50%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        vertical-align: middle; 
     }
 }
 
